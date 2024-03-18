@@ -26,3 +26,4 @@ jobs:
           password: ${{ secrets.CPANEL_PASSWORD }}
           protocol: ${{ secrets.CPANEL_PROTOCOL }}
           port: ${{ secrets.CPANEL_PORT }}
+          local-dir: ./dist
